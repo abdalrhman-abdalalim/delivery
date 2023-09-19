@@ -1,0 +1,377 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 800px;
+    background-image:url(blue_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav .first_part{
+    padding:30px ;
+    transition: all 1s ease ;
+}
+nav .second_part{
+    padding:30px ;
+    padding-top: 40px;
+}
+nav .second_part input{
+    margin-top:20px;
+    margin-right: 60px;
+    border-radius: 50px;
+    width: 90px;
+    border: none;
+    background-color: #ffffff;
+    height: 20px;
+    color: rgb(218, 215, 215);
+    text-align: center;
+    transition: all 0.4s ease;
+}
+nav .second_part input:hover{
+    scale: 1.3;
+}
+nav .second_part input:focus{
+    outline: none;
+}
+.first_part a{
+    margin: 0px 10px;
+    /* padding:20px; */
+    align-items: center;
+    text-decoration: none;
+    color: rgb(131, 129, 129);
+    transition: all 0.4s ease;
+    font-size: 13px;
+}
+.first_part a:hover{
+   font-size: 16px;
+}
+.first_part img{
+    position: relative;
+    left: 10px;
+    top: 15px;
+    transition: all 0.4s ease;
+}
+.first_part img:hover{
+    scale: 1.2;
+}
+.link_home{
+    padding: 5px;
+    align-items: center;    
+    font-size: 13px;
+    text-decoration: none;
+    /* text-decoration: 1px underline  rgb(85, 20, 33); */
+    border-bottom: 2px solid purple;
+    /* text-decoration-thickness: 2px; */
+    color: rgb(131, 129, 129);
+}
+.landing{
+    position: absolute;
+    width: 500px;
+    right: 200px;
+    top: 250px;
+    z-index: 1;
+}
+.cloud{
+    position: absolute;
+    width: 500px;
+    right: 200px;
+    top: 500px;
+    z-index: 3;
+}
+.Deleivery{
+    position: absolute;
+    width: 200px;
+    right: 400px;
+    top: 230px;
+    z-index: 2;
+}
+.waves{
+    position: absolute;
+    width: 1200px;
+    right: 400px;
+    top: 530px;
+    z-index: 4;
+}
+.tit{
+    font-size: 60px;
+    position: absolute;
+    top:340px;
+    left: 70px;
+    color: rgb(109, 109, 109);
+}
+span{
+    color: rgba(128, 9, 133, 0.986);
+}
+.art{
+    font-size: 20px;
+    color: rgb(139, 138, 138);
+    position: absolute;
+    top:420px;
+    left: 80px;
+}
+.first_step{
+    width: 150px;;
+    position: absolute;
+    left: 170px;
+    top: 990px;
+}
+.p_fi_st1{
+    font-size: 25px;
+    position: absolute;
+    left: 190px;
+    top: 1190px;
+    color: rgb(136, 134, 128);
+}
+.p_fi_st2{
+    font-size: 15px;
+    position: absolute;
+    left: 190px;
+    top: 1230px;
+    color: rgb(167, 164, 153);
+}
+.road{
+    position: absolute;
+    width: 50px;
+    left: 370px;
+    top: 930px;
+}
+.p_ro1{
+    font-size: 25px;
+    position: absolute;
+    left:690px;
+    top:1290px;
+    color: rgb(136, 134, 128);
+}
+.p_ro2{
+    font-size: 15px;
+    position: absolute;
+    left:680px;
+    top:1330px;
+    color: rgb(167, 164, 153);
+}
+.time{
+    position: absolute;
+    width:100px;
+    left:670px;
+    top:1100px;
+}
+.disc{
+    position: absolute;
+    width:100px;
+    right:370px;
+    top:1300px;
+}
+.p_dis1{
+    font-size: 25px;
+    position: absolute;
+    right:240px;
+    top:1500px;
+    color: rgb(136, 134, 128);
+}
+.p_dis2{
+    font-size: 15px;
+    position: absolute;
+    right:150px;
+    top:1540px;
+    color: rgb(167, 164, 153);
+}
+.kudz{
+    position: absolute;
+    width:60px;
+    left:100px;
+    top:1380px;
+}
+.p_kud{
+    font-size: 20px;
+    position: absolute;
+    left:220px;
+    top:1520px;
+    color: white;
+}
+.sp1{
+    color: white;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.last_mid{
+    width: 100px;
+    position: absolute;
+    top: 1900px;
+    right: 800px;
+}
+.last_left{
+    width: 100px;
+    position: absolute;
+    top: 1970px;
+    right: 1100px;
+}
+.last_right{
+    width: 100px;
+    position: absolute;
+    top: 1990px;
+    left: 935px;
+}
+.p_last1{
+    font-size: 25px;
+    position: absolute;
+    top: 2170px;
+    right: 570px;
+    color: rgb(136, 134, 128);
+}
+.p_last2{
+    font-size: 20px;
+    position: absolute;
+    top: 2210px;
+    right: 580px;
+    color: rgb(167, 164, 153);
+}
+.gt{ 
+    size: 100px;
+    color: rgb(109, 109, 109);
+    position: absolute;
+    left: 860px;
+    top: 2130px;
+}
+.lt{ 
+    size: 100px;
+    color: rgb(109, 109, 109);
+    position: absolute;
+    right: 920px;
+    top: 2130px;
+}
+.lt:hover{
+    scale: 1.2;
+}
+.gt:hover{
+    scale: 1.2;
+}
+footer{
+    position: relative;
+    margin-top: 0px;
+    bottom: 90vh;
+    height: 100vh;
+    overflow: hidden;
+}
+.panner_footer img{
+    width: 100%;
+    height: 100%;
+}
+.panner_footer{
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+}
+.hum img{
+    position: absolute;
+    height: 550px;
+    width: 600px;
+    right: 100px;
+    top: 210px;
+}
+.play_store input{
+    position: absolute;
+    box-shadow: 4px 4px 4px rgb(168, 167, 167);
+    left: 170px;
+    top: 460px;
+    border-radius: 4px;
+    border: none;
+    width: 110px;
+    height: 40px;
+    /* transition: all 1s ease ; */
+}
+.apple{
+    position: absolute;
+    left: 180px;
+    top: 465px;
+    width: 25px;
+    height: 25px;
+}
+.part1_apple{
+    font-size: 9px;
+    position:absolute;
+    left: 214px;
+    top: 465px;
+    color: rgb(179, 177, 176);
+}
+.part2_apple{
+    font-size: 13px;
+    position:absolute;
+    left: 215px;
+    top: 477px;
+    color: rgb(43, 43, 43);
+}
+/* .play_store input:hover{
+    scale: 1.2;
+} */
+.play_store .tex1{
+    position: absolute;
+    box-shadow: 4px 4px 4px rgb(168, 167, 167);
+    left: 300px;
+    top: 460px;
+    border-radius: 4px;
+    border: none;
+    width: 110px;
+    height: 40px;
+}
+.part3_apple{
+    font-size: 9px;
+    position:absolute;
+    left: 335px;
+    top: 465px;
+    color: rgb(179, 177, 176);
+}
+.apple1{
+    position: absolute;
+    left: 306px;
+    top: 469px;
+    width: 25px;
+    height: 25px;
+}
+.part4_apple{
+    font-size: 13px;
+    position:absolute;
+    left: 335px;
+    top: 477px;
+    color: rgb(43, 43, 43);
+}
+.insta{
+    position: absolute;
+    left: 170px;
+    top: 530px;
+}
+.whats{
+    position: absolute;
+    left: 230px;
+    top: 530px;
+    width: 32px;
+}
+.face{
+    position: absolute;
+    left: 290px;
+    top: 530px;
+
+}
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:600px;
+    padding-left: 100px;
+}
+.footer_links a{
+    padding-left: 70px;
+    text-decoration: none;
+    color: white;
+}
+.footer_links a:focus{
+    outline: none;
+}
